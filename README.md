@@ -45,6 +45,7 @@
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |     [nuclei](https://github.com/projectdiscovery/nuclei)     | 基于YAML的漏洞扫描仪。我认为是目前开源漏扫工具中最出色的（我用过的）。 |
 | [JNDI-Injection-Exploit](https://github.com/welk1n/JNDI-Injection-Exploit) |         JNDI注入测试工具(star最多的，还是比较好用的)         |
+|      [ysoserial](https://github.com/frohoff/ysoserial)       |   构造java的反序列化payload毫无疑问是它，有着全面的利用链    |
 
 ---
 
@@ -54,7 +55,16 @@
 | :----------------------------------------: | :----------------------------------------------------: |
 | [CodeQL](https://github.com/github/codeql) | 很有未来的语义代码分析引擎，代码审计神器，批量挖洞yyds |
 
+---
 
+`Webshell管理工具`
+
+|                             工具                             |                           介绍                            |
+| :----------------------------------------------------------: | :-------------------------------------------------------: |
+| [Godzilla【哥斯拉】](https://github.com/BeichenDream/Godzilla) |    号称shell均可绕过市面所有静态查杀、WAF,自带众多插件    |
+|   [Behinder【冰蝎】](https://github.com/rebeyond/Behinder)   | 多采用加密传输,可Java内存马注入、支持多种Web容器、反向DMZ |
+
+---
 
 `安全多功能平台`
 
@@ -70,14 +80,31 @@
 
 `Web安全学习`
 
-|                            资料                             |                             介绍                             |
-| :---------------------------------------------------------: | :----------------------------------------------------------: |
-| [Web安全学习笔记](https://websec.readthedocs.io/zh/latest/) | Web安全较为系统的学习手册，内容不够深入，但是他比较全、系统，还是适合新手。 |
-|               [JavaSec](https://javasec.org/)               | java Web安全的手册，我学习java安全，也是跟着这个手册，再向外扩展。 |
+|                             资料                             |                             介绍                             |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| [Web安全学习笔记](https://websec.readthedocs.io/zh/latest/)  | Web安全较为系统的学习手册，内容不够深入，但是他比较全、系统，还是适合新手。 |
+|               [JavaSec](https://javasec.org/)                | java Web安全的手册，我学习java安全，也是跟着这个手册，再向外扩展。 |
+| [JavaThings [java安全漫谈]](https://github.com/phith0n/JavaThings) |     p牛的，学java安全看看会有很多收获，不过要收费入圈子      |
+
+## 漏洞
+
+---
+
+`漏洞库`
+
+|                             名称                             |                         介绍                          |
+| :----------------------------------------------------------: | :---------------------------------------------------: |
+|             [Peiqi文库](http://wiki.peiqi.tech/)             | 最著名的基于docker的漏洞靶场，一键化搭建真实漏洞环境  |
+| [白阁文库](https://wiki.bylibrary.cn/%E6%BC%8F%E6%B4%9E%E5%BA%93/01-CMS%E6%BC%8F%E6%B4%9E/ActiveMQ/ActiveMQ%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/) |    基于docker的IOT漏洞靶场，一键化搭建真实漏洞环境    |
+|            [阿里云漏洞库](https://47.101.61.67/)             |                    阿里云的漏洞库                     |
+|          [exploit-db](https://www.exploit-db.com/)           |                    国际知名漏洞库                     |
+| [Windows提权EXP搜索](http://blog.neargle.com/win-powerup-exp-index/#) | Windows提权EXP在线搜索工具，在内网渗透很方便找提权exp |
+
+---
 
 `漏洞靶场`
 
-|                         工具                          |                         介绍                         |
+|                         名称                          |                         介绍                         |
 | :---------------------------------------------------: | :--------------------------------------------------: |
 |      [vulhub](https://github.com/vulhub/vulhub)       | 最著名的基于docker的漏洞靶场，一键化搭建真实漏洞环境 |
 | [IOT-vulhub](https://github.com/firmianay/IoT-vulhub) |   基于docker的IOT漏洞靶场，一键化搭建真实漏洞环境    |
